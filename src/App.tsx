@@ -1,11 +1,13 @@
 import "./App.css";
-import Test from "./components/Test";
+import Board from "./components/Board";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <>
-      <Test firstname="vahab" />
-    </>
+    <main className="flex min-h-screen w-full flex-col items-center justify-center px-4 py-8 md:px-8 md:py-12">
+      <Header />
+      <Board />
+    </main>
   );
 }
 
