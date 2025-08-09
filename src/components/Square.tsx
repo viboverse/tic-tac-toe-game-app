@@ -9,7 +9,11 @@ export default function Square({ mark, onClick }: SquareProps) {
       className={`flex h-16 w-16 items-center justify-center rounded-sm border-2 border-gray-400 text-6xl font-bold md:h-24 md:w-24 ${mark === "X" ? "text-[#405ef5]" : mark === "O" ? "text-[#ff7f0a]" : ""}`}
       onClick={onClick}
     >
-      {mark}
+      <span
+        className={`transition-opacity duration-600 ${mark ? "opacity-100" : "opacity-0"}`}
+      >
+        {mark}
+      </span>
     </button>
   );
 }

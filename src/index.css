@@ -26,9 +26,8 @@
   --color-blue-900: #101a9f;
   --color-blue-950: #0a0e5c;
 }
-
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: var(--color-primary);
   color: white;
 }

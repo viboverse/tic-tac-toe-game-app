@@ -1,69 +1,44 @@
-# React + TypeScript + Vite
+# Tic-Tac-Toe AI: Unbeatable Game Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Tic-Tac-Toe Preview](./src/assets/tic-tac-toe.png)
 
-Currently, two official plugins are available:
+A fun, mobile-friendly Tic-Tac-Toe game with an unbeatable AI (minimax), built using React, TypeScript, Tailwind CSS, and MUI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## [🎮 Play Live Demo](https://tic-tac-toe-bay-mu-94.vercel.app/)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 19** - Component-based UI development
+- **TypeScript** - Static typing for robust code architecture
+- **Tailwind CSS** - Utility-first styling for pixel-perfect design
+- **Vercel** - Seamless deployment and hosting
+- **Material UI (MUI)** - Premium UI components with custom theming
+- **Minimax Algorithm** - Advanced recursive AI decision making
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Key Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- 🧠 **Unbeatable AI** using minimax algorithm for perfect gameplay
+- 🎭 **Dual Game Modes** - Play against AI or with a friend
+- 📱 **Fully Responsive** design for all device sizes
+- 🌓 **Custom UI Components** using MUI integration
+- ✨ **Smooth Animations** for mark placement and state changes
+- 🏆 **Real-time Game State** tracking and win detection
+- 🔄 **Easy Reset** and game mode switching
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🚀 Getting Started
+
+```bash
+# Clone your portfolio repo
+git clone https://github.com/viboverse/my-portfolio.git
+
+# Go into the Tic-Tac-Toe app folder
+cd my-portfolio/tic-tac-toe-game-app
+
+# Install and run
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+_Designed & Developed by [vibo] - 2025_
