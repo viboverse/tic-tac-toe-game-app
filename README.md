@@ -1,3 +1,14 @@
+<div align="center">
+
+<p>
+  <img src="https://img.shields.io/badge/node-v18.18.0-green" alt="Node.js version">
+  <img src="https://img.shields.io/badge/npm-v9.0.0-blue" alt="NPM version">
+  <a href="https://react-weather-app-indol-five.vercel.app" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Powered%20by-Vercel-black" alt="Powered by Vercel">
+  </a>
+</p>
+
+
 # Tic-Tac-Toe AI: Unbeatable Game Experience
 
 ![Tic-Tac-Toe Preview](./src/assets/tic-tac-toe.png)
@@ -5,6 +16,8 @@
 A fun, mobile-friendly Tic-Tac-Toe game with an unbeatable AI (minimax), built using React, TypeScript, Tailwind CSS, and MUI.
 
 ## [🎮 Play Live Demo](https://tic-tac-toe-bay-mu-94.vercel.app/)
+
+</div>
 
 ## 🛠️ Tech Stack
 
